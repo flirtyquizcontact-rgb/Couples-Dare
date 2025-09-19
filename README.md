@@ -1,30 +1,44 @@
-# Couples Dare 🎲❤️
+# Couples Dare 🎲❤️  
+**Couples Dare** is a **romantic challenge & roleplay game for couples**, built with **Flutter**.  
+It is designed for partners who want to **spice up their relationship** with fun, playful, and engaging dares.  
+Whether you are dating, in a long-term relationship, or simply looking for ways to connect, **this Android couples app** makes every moment exciting.  
 
-**Couples Dare** is a romantic challenge & roleplay game built with Flutter.  
-It is designed for couples who want to spice up their relationship with fun, playful, and engaging dares.  
+With **multiple challenge packs** (Classic, Points, Roleplay, and Premium), you’ll discover levels of intimacy, laughter, and bonding activities. Couples Dare is not just a game – it’s a tool to bring couples closer together.  
 
-🔥 **Key Features**:
+---
+
+## 🔥 Key Features of Couples Dare
 - Four unique packs: **Classic, Points, Roleplay, Premium**
-- 15 levels of fun challenges per pack
+- 15 progressive levels of fun dares per pack
 - Elegant dark theme with custom backgrounds
-- Background music with toggle button (on/off anytime)
-- AdMob integration (banners & interstitials – disabled in Premium)
-- Works on Android phones and emulators
+- Relaxing **background music with toggle button** (on/off anytime)
+- **AdMob integration** (banners & interstitials – disabled in Premium)
+- Works on **Android phones, tablets, and emulators**
+- No registration or login required  
 
 ---
 
 ## 📱 Screenshots
 
+---
+
+## 🎮 How to Play Couples Dare
+1. Choose a Pack: **Classic, Points, Roleplay, or Premium**.  
+2. Each level reveals a **dare or challenge** for you and your partner.  
+3. Follow the instructions, play together, and enjoy the moment.  
+4. In **Points Mode**, collect points and compare your scores.  
+5. The goal is simple: **connect, laugh, and strengthen your relationship ❤️**.  
 
 ---
 
-## 🚀 Getting Started (Developers)
-
+## 🚀 Getting Started (For Developers)
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/couples-dare.git
    cd couples-dare
-   2. Install dependencies:
+Android Studio for build & debug
+
+2. Install dependencies:
 
 flutter pub get
 
@@ -39,7 +53,7 @@ flutter run
 flutter build apk --debug
 
 
-5. Build release APK/AAB for Google Play:
+5. Build release AAB for Google Play:
 
 flutter build appbundle --release
 
@@ -48,48 +62,30 @@ flutter build appbundle --release
 
 ---
 
-🎮 How to Play
-
-Choose a Pack (Classic, Points, Roleplay, or Premium).
-
-Each level reveals a dare or challenge for you and your partner.
-
-Follow the instructions and enjoy the playful interaction.
-
-In Points Mode, collect points and compare your final scores.
-
-The goal is to connect, laugh, and have fun together ❤️
-
-
-
----
-
 📜 Terms & Conditions (Summary)
 
-This app is for entertainment purposes only.
+Couples Dare is for entertainment purposes only.
 
-Couples Dare does not collect personal data beyond what is required for ads (AdMob).
+The app does not collect personal data beyond what is required for ads (AdMob).
 
-By using the app, you agree to play responsibly and ensure mutual consent between both players.
+By playing, you agree to use the app responsibly and ensure mutual consent.
 
-The creators are not responsible for misuse of the app.
+The creators are not liable for misuse of the app.
+➡️ Full document: TERMS.md
 
-
-(For the full Terms document, see TERMS.md in this repository.)
 
 
 ---
 
 🔒 Privacy Policy (Summary)
 
-Couples Dare does not collect, store, or share personal user data.
+Couples Dare does not collect, store, or share personal data.
 
-Ads are provided by Google AdMob; data handled by AdMob is covered under Google’s privacy policies.
+Ads are provided via Google AdMob, and all data handling follows Google’s Privacy Policy.
 
-No registration, account, or login is required to use the app.
+No account or login is required to use the app.
+➡️ Full document: PRIVACY.md
 
-
-(For the full Privacy Policy, see PRIVACY.md in this repository.)
 
 
 ---
@@ -107,6 +103,20 @@ audioplayers for background music
 Android Studio for build & debug
 
 
+
+---
+
+⚖️ License
+
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+
+---
+
+📩 Feedback & Support
+
+If you enjoy this project, please ⭐ star the repo, share it with others, and feel free to open issues or pull requests.
+Follow updates here and on the Google Play link (coming soon).
 
 ---
 
