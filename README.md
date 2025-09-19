@@ -14,7 +14,7 @@ It is designed for couples who want to spice up their relationship with fun, pla
 ---
 
 ## 📱 Screenshots
-*(Add images of your app here when ready)*
+
 
 ---
 
