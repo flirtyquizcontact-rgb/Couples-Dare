@@ -120,13 +120,6 @@ Follow updates here and on the Google Play link (coming soon).
 
 ---
 
-⚖️ License
-
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-
----
-
 📩 Feedback
 
 If you enjoy this project, please ⭐ star the repo, share it with others, and feel free to open issues or pull requests.
