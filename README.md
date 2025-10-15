@@ -31,36 +31,6 @@ With **multiple challenge packs** (Classic, Points, Roleplay, and Premium), you�
 
 ---
 
-## 🚀 Getting Started (For Developers)
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/couples-dare.git
-   cd couples-dare
-Android Studio for build & debug
-
-2. Install dependencies:
-
-flutter pub get
-
-
-3. Run the app on emulator or device:
-
-flutter run
-
-
-4. Build APK for testing:
-
-flutter build apk --debug
-
-
-5. Build release AAB for Google Play:
-
-flutter build appbundle --release
-
-
-
-
----
 
 📜 Terms & Conditions (Summary)
 
