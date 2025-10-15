@@ -8,7 +8,7 @@ With **multiple challenge packs** (Classic, Points, Roleplay, and Premium), youâ
 ---
 
 ## ðŸ”¥ Key Features of Couples Dare
-- Four unique packs: **Classic, Points, Roleplay, Premium**
+- Four unique packs: **Classic, Points, Roleplay, Premium, Daily reward**
 - 15 progressive levels of fun dares per pack
 - Elegant dark theme with custom backgrounds
 - Relaxing **background music with toggle button** (on/off anytime)
