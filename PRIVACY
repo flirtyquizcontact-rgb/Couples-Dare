@@ -1,6 +1,6 @@
 # Privacy Policy – Couples Dare 🔒
 
-**Last Updated:** September 2025
+**Last Updated:** October 2025  
 
 Your privacy is important to us. This policy explains how **Couples Dare** handles information.
 
@@ -13,43 +13,53 @@ Your privacy is important to us. This policy explains how **Couples Dare** handl
 ---
 
 ## 2. Advertising & Third-Party Services
-- The app uses **Google Mobile Ads (AdMob)** to display ads.  
-- AdMob may collect anonymous usage data to serve personalized or non-personalized ads.  
-- Data handling is subject to **Google’s Privacy Policy**: [https://policies.google.com/privacy](https://policies.google.com/privacy).
+- The app uses **Liftoff Monetize (formerly Vungle)** to display ads (banner, interstitial, and rewarded).  
+- Liftoff Monetize may collect **anonymous device or usage data** to deliver and limit ads.  
+- Data handling follows **Liftoff’s Privacy Policy**: [https://liftoff.io/privacy-policy](https://liftoff.io/privacy-policy).  
 
-
-### Disclaimer
+**Disclaimer:**  
 This app is designed for entertainment purposes only.  
 It does not collect, store, or share any personal information.  
-Ads are served via Google AdMob, and data is handled under Google's policies.  
 Users must be **13 years or older** to download and play.  
 By installing the app, you agree to play responsibly and with mutual consent.
 
-
+---
 
 ## 3. Premium Pack
-- Ads are **disabled in Premium mode**.  
-- If future purchases are added (in-app purchases), Google Play Billing will handle payments and compliance.
+- Ads are **disabled** in Premium mode.  
+- Any future purchases (if added) are processed securely via **Google Play Billing**.
 
-
+---
 
 ## 4. Children’s Privacy
 - Couples Dare is **not directed to children under 13**.  
 - Recommended usage: **13+**, as the content is designed for couples and older teens.
 
-
+---
 
 ## 5. Device Permissions
-- The app may request access to:
-  - **Internet** (for ads).
-  - **Audio playback** (for background music).  
-- No sensitive permissions such as contacts, camera, or location are requested.
+The app may request access to:  
+- **Internet** (for ads and content updates)  
+- **Audio playback** (for background music)  
 
+No sensitive permissions such as contacts, camera, or location are requested.
 
+---
 
-## 6. Updates to Policy
-This Privacy Policy may be updated. Continued use of the app means you accept the changes.
+## 6. Data Deletion Requests (GDPR / CCPA)
+Although the app itself does not collect any user data,  
+you can request the **deletion of any information** that may have been collected by third-party ad providers (e.g., Liftoff Monetize).  
+To make such a request, contact us at **flirtyquizcontact@gmail.com**,  
+and we will forward your deletion request to the relevant provider if applicable.
 
+---
 
+## 7. Updates to Policy
+This Privacy Policy may be updated at any time.  
+Continued use of the app after such updates constitutes acceptance of the revised policy.
 
-📩 **Contact**: For questions about privacy, open an issue on the [GitHub repository](https://github.com/flirtyquizcontact-rgb/Couples-Dare).
+---
+
+📩 **Contact:**  
+For privacy-related questions or data deletion requests, please email **flirtyquizcontact@gmail.com**  
+or visit [https://liftoff.io/privacy-policy](https://liftoff.io/privacy-policy).
