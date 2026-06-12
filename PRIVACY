@@ -1,67 +1,318 @@
-# Privacy Policy – Couples Dare: Relationship Quiz 🔒
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Couples Dare</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px;
+      color: #222;
+      background: #fff;
+    }
+    h1, h2 {
+      color: #111;
+    }
+    h1 {
+      border-bottom: 2px solid #e91e63;
+      padding-bottom: 10px;
+    }
+    a {
+      color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
 
-**Last Updated:** 11 December 2025
+  <p><strong>Last updated:</strong> June 12, 2026</p>
 
-Your privacy is important to us. This policy explains how **Couples Dare: Relationship Quiz** handles information.
+  <p>
+    This Privacy Policy explains how <strong>Couples Dare – Fun Quiz</strong>
+    (“the App”, “we”, “our”, or “us”) handles information when you use the App.
+  </p>
 
----
+  <p>
+    Couples Dare – Fun Quiz is a mobile entertainment app for couples. The App includes
+    quiz-style game modes, daily dares, rewards, hearts, badges, streaks, premium mood packs,
+    a daily chemistry board, heart-based activities, and party mode features.
+  </p>
 
-## 1. No Personal Data Collection
-- Couples Dare: Relationship Quiz does **not collect, store, or share personal information**.
-- No registration, account, or login is required to use the app.
+  <h2>1. Developer Information</h2>
 
----
+  <p>
+    <strong>App name:</strong> Couples Dare – Fun Quiz<br />
+    <strong>Package name:</strong> com.lauri.couplesdare<br />
+    <strong>Contact email:</strong> flirtyquiz.contact@gmail.com
+  </p>
 
-## 2. Advertising & Third-Party Services
-- The app uses **Liftoff Monetize (formerly Vungle)** to display banner, interstitial, and rewarded ads.
-- Liftoff Monetize may process **anonymous device/usage data** (e.g., ad performance, frequency capping) to deliver and limit ads.
-- Data handling follows **Liftoff’s Privacy Policy**: <https://liftoff.io/privacy-policy>.
+  <h2>2. Information We Do Not Require</h2>
 
-**EEA/UK consent:**  
-Where required by law, the app shows a simple consent dialog for personalized/non-personalized ads. You can change your choice anytime from the app’s settings (where available).
+  <p>
+    The App does not require users to create an account. We do not ask users to provide
+    their full name, email address, phone number, home address, contacts, photos, camera
+    access, microphone access, or precise location in order to use the main features of
+    the App.
+  </p>
 
-**Disclaimer:**  
-This app is for entertainment only. It does not collect, store, or share any personal information. Users must be **13+** to download and play. By installing the app, you agree to play responsibly and with mutual consent.
-App may show cross-promotion for our other apps; no personal data is shared.
----
+  <h2>3. Information Stored Locally on Your Device</h2>
 
-## 3. Premium / Purchases
-- When Premium is enabled, **ads are disabled**.
-- Any future in-app purchases (if added) are processed securely via **Google Play Billing** / platform billing. We do not receive your full payment details.
+  <p>
+    Some information is stored locally on your device to make the App work properly and
+    preserve your game progress. This may include:
+  </p>
 
----
+  <ul>
+    <li>Player names entered by the user, such as Player A and Player B;</li>
+    <li>Selected language and theme preferences;</li>
+    <li>Music and sound preferences;</li>
+    <li>Hearts balance;</li>
+    <li>Daily reward status;</li>
+    <li>Daily special dare status;</li>
+    <li>Daily Chemistry Board progress;</li>
+    <li>Couple streak progress;</li>
+    <li>Unlocked badges;</li>
+    <li>Heart Economy activity usage;</li>
+    <li>Party Mode scores and local game progress;</li>
+    <li>Premium unlock status.</li>
+  </ul>
 
-## 4. Children’s Privacy
-- The App is **not directed to children under 13**.
-- Recommended usage: **13+** (content is designed for couples and older teens).
+  <p>
+    This information is used to provide app functionality and improve the user experience
+    inside the App. This local information remains on your device unless processed by
+    third-party services described in this Privacy Policy.
+  </p>
 
----
+  <h2>4. Advertising</h2>
 
-## 5. Device Permissions
-The app may request access to:
-- **Internet** (to load ads and content updates)
-- **Audio playback** (background music / sound effects)
+  <p>
+    The App uses Google AdMob to display advertisements. These may include banner ads,
+    interstitial ads, and rewarded ads.
+  </p>
 
-No sensitive permissions (contacts, camera, precise location) are requested.
+  <p>
+    Rewarded ads are optional. Users may choose to watch a rewarded ad in order to receive
+    in-app rewards, such as hearts. Rewarded ads are not required to use the basic features
+    of the App.
+  </p>
 
----
+  <p>
+    Google AdMob may collect and process certain information, which may include device
+    identifiers, advertising identifiers, app interactions, approximate location derived
+    from IP address, diagnostic data, crash-related data, and ad performance data. This
+    data may be used by Google to provide, measure, personalize, and improve advertising,
+    depending on your device settings, consent choices, region, and applicable laws.
+  </p>
 
-## 6. Data Deletion Requests (GDPR / CCPA)
-The app itself does not collect personal data.  
-For data that may be collected by third-party ad providers (e.g., Liftoff Monetize), you may request deletion by contacting us at **flirtyquizcontact@gmail.com**. We will forward your request to the relevant provider where applicable.
+  <p>
+    You can manage ad personalization through your device settings and Google settings,
+    where available. In certain regions, you may also be shown consent or privacy options
+    related to advertising.
+  </p>
 
----
+  <p>
+    You can learn more about how Google uses information from apps that use Google services
+    here:
+    <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">
+      https://policies.google.com/technologies/partner-sites
+    </a>
+  </p>
 
-## 7. Your Rights (GDPR/EEA where applicable)
-Depending on your region, you may have rights to access, correct, restrict, or delete data processed by third-party ad providers. Contact us and we will assist with your request.
+  <h2>5. Firebase Analytics and Crash Reporting</h2>
 
----
+  <p>
+    The App may use Firebase services, including Firebase Analytics and Firebase Crashlytics,
+    to understand app usage, improve features, detect errors, and fix crashes.
+  </p>
 
-## 8. Policy Updates
-We may update this Privacy Policy at any time. Continued use of the app after updates constitutes acceptance of the revised policy.
+  <p>
+    Firebase may collect information such as app interactions, app launches, device
+    information, operating system information, crash logs, diagnostic data, installation
+    identifiers, and performance-related information.
+  </p>
 
----
+  <p>
+    We use this information to improve stability, fix technical problems, and understand
+    how users interact with the App. We do not use Firebase to identify users by name.
+  </p>
 
-## 9. Contact
-For privacy questions or deletion requests, contact: **flirtyquizcontact@gmail.com**  
-Third-party ads privacy: <https://liftoff.io/privacy-policy>
+  <p>
+    You can learn more about Firebase privacy and security here:
+    <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">
+      https://firebase.google.com/support/privacy
+    </a>
+  </p>
+
+  <h2>6. In-App Purchases and Premium Features</h2>
+
+  <p>
+    The App may offer a one-time Premium upgrade through Google Play Billing. The Premium
+    upgrade may remove ads and unlock premium features such as premium mood packs or other
+    premium experiences.
+  </p>
+
+  <p>
+    Purchases are processed by Google Play. We do not collect or store your payment card
+    details. Payment processing, refunds, purchase validation, and transaction records are
+    handled by Google Play according to Google Play policies.
+  </p>
+
+  <h2>7. In-App Hearts, Rewards, and Badges</h2>
+
+  <p>
+    The App includes virtual in-app items and progress features such as hearts, rewards,
+    badges, streaks, Daily Chemistry Board progress, Heart Economy activities, Party Mode
+    progress, and premium activity unlocks.
+  </p>
+
+  <p>
+    Hearts and other virtual items have no real-world monetary value, cannot be exchanged
+    for cash, and cannot be transferred outside the App.
+  </p>
+
+  <h2>8. Data Sharing</h2>
+
+  <p>
+    We do not sell your personal information.
+  </p>
+
+  <p>
+    Certain information may be processed by third-party service providers used in the App,
+    including:
+  </p>
+
+  <ul>
+    <li>Google AdMob, for advertising and rewarded ads;</li>
+    <li>Google Firebase, for analytics, diagnostics, and crash reporting;</li>
+    <li>Google Play Billing, for in-app purchases.</li>
+  </ul>
+
+  <p>
+    These third-party providers process data according to their own privacy policies and
+    terms.
+  </p>
+
+  <h2>9. Internet Access</h2>
+
+  <p>
+    Some features require internet access, including loading ads, rewarded ads, purchase
+    validation, Firebase analytics, crash reporting, and Google Play services.
+  </p>
+
+  <p>
+    The App’s core game experience may use local data, but monetization, analytics, crash
+    reporting, and purchase-related features may require connectivity.
+  </p>
+
+  <h2>10. Children’s Privacy</h2>
+
+  <p>
+    The App is intended for a general audience and is not directed to children under the
+    age of 13. The App is designed as an entertainment game for couples and may include
+    romantic, playful, or relationship-themed prompts.
+  </p>
+
+  <p>
+    We do not knowingly collect personal information from children under 13. If you believe
+    that a child has provided personal information through the App, please contact us and
+    we will take appropriate steps to remove such information where applicable.
+  </p>
+
+  <h2>11. User Choices</h2>
+
+  <p>
+    You may control certain information and preferences directly inside the App, such as
+    player names, language, music, sound, and game preferences.
+  </p>
+
+  <p>
+    You may reset or remove locally stored app data by clearing the App’s storage from your
+    device settings or by uninstalling the App.
+  </p>
+
+  <p>
+    Advertising personalization may be managed through your device settings, Google settings,
+    or available consent options depending on your region.
+  </p>
+
+  <h2>12. Data Retention</h2>
+
+  <p>
+    Locally stored app data remains on your device until you clear the App’s storage or
+    uninstall the App.
+  </p>
+
+  <p>
+    Data processed by third-party services such as Google AdMob, Firebase, and Google Play
+    Billing is retained according to those services’ policies.
+  </p>
+
+  <h2>13. Security</h2>
+
+  <p>
+    We use reasonable measures to keep the App stable and safe. However, no method of
+    electronic storage or transmission over the internet is 100% secure.
+  </p>
+
+  <h2>14. Third-Party Services</h2>
+
+  <p>
+    The App may use third-party services provided by Google, including Google AdMob,
+    Firebase, and Google Play Billing. These services may collect and process data according
+    to their own privacy policies.
+  </p>
+
+  <ul>
+    <li>
+      Google Privacy Policy:
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+        https://policies.google.com/privacy
+      </a>
+    </li>
+    <li>
+      Google AdMob:
+      <a href="https://admob.google.com/" target="_blank" rel="noopener">
+        https://admob.google.com/
+      </a>
+    </li>
+    <li>
+      Firebase:
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">
+        https://firebase.google.com/support/privacy
+      </a>
+    </li>
+    <li>
+      Google Play Billing:
+      <a href="https://developer.android.com/google/play/billing" target="_blank" rel="noopener">
+        https://developer.android.com/google/play/billing
+      </a>
+    </li>
+  </ul>
+
+  <h2>15. Changes to This Privacy Policy</h2>
+
+  <p>
+    We may update this Privacy Policy from time to time. Any changes will be posted on this
+    page with an updated “Last updated” date.
+  </p>
+
+  <p>
+    Continued use of the App after changes are posted means you accept the updated Privacy
+    Policy.
+  </p>
+
+  <h2>16. Contact Us</h2>
+
+  <p>
+    If you have questions about this Privacy Policy or the App, you can contact us at:
+  </p>
+
+  <p>
+    <strong>Email:</strong> flirtyquiz.contact@gmail.com
+  </p>
+</body>
+</html>
