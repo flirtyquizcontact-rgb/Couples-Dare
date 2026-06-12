@@ -3,85 +3,223 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Couples Dare – Fun Quiz</title>
-  <meta name="description" content="Official support and legal page for Couples Dare – Fun Quiz." />
+
+  <title>Couples Dare – Fun Quiz | Support & Legal</title>
+
+  <meta name="description" content="Official support and legal page for Couples Dare – Fun Quiz, a fun couple game with dares, quizzes, daily rewards, hearts, badges, streaks, premium mood packs, chemistry board and party mode." />
+
   <style>
+    :root {
+      --bg-1: #130008;
+      --bg-2: #2a0616;
+      --bg-3: #050005;
+      --pink: #ff5fa8;
+      --rose: #ff7abf;
+      --gold: #ffc46b;
+      --text: #ffffff;
+      --muted: #f4d7e4;
+      --card: rgba(255, 255, 255, 0.085);
+      --border: rgba(255, 255, 255, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(135deg, #160008, #2b0716, #090009);
-      color: #ffffff;
       min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(255, 95, 168, 0.25), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(255, 196, 107, 0.18), transparent 34%),
+        linear-gradient(135deg, var(--bg-1), var(--bg-2), var(--bg-3));
+      color: var(--text);
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 24px;
+      padding: 28px;
     }
-    .card {
-      max-width: 760px;
+
+    .page {
       width: 100%;
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.18);
-      border-radius: 28px;
-      padding: 36px;
-      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
-      backdrop-filter: blur(16px);
+      max-width: 880px;
     }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      padding: 38px;
+      box-shadow: 0 28px 90px rgba(0, 0, 0, 0.48);
+      backdrop-filter: blur(18px);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+
     h1 {
-      font-size: 42px;
-      margin: 0 0 12px;
-      background: linear-gradient(90deg, #ff6fae, #ffcc70);
+      margin: 0;
+      font-size: clamp(34px, 7vw, 58px);
+      line-height: 1.02;
+      letter-spacing: -1.2px;
+      background: linear-gradient(90deg, var(--rose), var(--gold));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    p {
-      line-height: 1.65;
-      color: #f4dce7;
+
+    .subtitle {
+      margin: 18px 0 0;
+      color: var(--muted);
       font-size: 18px;
+      line-height: 1.65;
+      max-width: 760px;
     }
-    .links {
-      display: grid;
-      gap: 14px;
-      margin-top: 28px;
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 26px 0;
     }
-    a {
-      display: block;
-      text-decoration: none;
-      color: #ffffff;
-      background: linear-gradient(90deg, rgba(255, 105, 180, 0.32), rgba(255, 193, 112, 0.22));
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: 18px;
-      padding: 16px 18px;
+
+    .feature {
+      padding: 10px 13px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.095);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      color: #ffe7f1;
+      font-size: 14px;
       font-weight: 700;
     }
-    a:hover {
-      background: linear-gradient(90deg, rgba(255, 105, 180, 0.46), rgba(255, 193, 112, 0.34));
+
+    .links {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 30px;
     }
-    .footer {
-      margin-top: 28px;
+
+    a.link-card {
+      display: block;
+      text-decoration: none;
+      padding: 20px;
+      border-radius: 22px;
+      background: linear-gradient(135deg, rgba(255, 95, 168, 0.26), rgba(255, 196, 107, 0.15));
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      color: #fff;
+      transition: transform 0.18s ease, background 0.18s ease, border 0.18s ease;
+    }
+
+    a.link-card:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, rgba(255, 95, 168, 0.36), rgba(255, 196, 107, 0.22));
+      border-color: rgba(255, 255, 255, 0.32);
+    }
+
+    .link-title {
+      display: block;
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+
+    .link-desc {
+      display: block;
       font-size: 14px;
-      color: #cfaebd;
+      line-height: 1.5;
+      color: #f3d7e4;
+    }
+
+    .support {
+      margin-top: 28px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      color: #dfbdcc;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .support a {
+      color: var(--gold);
+      font-weight: 700;
+    }
+
+    @media (max-width: 680px) {
+      body {
+        padding: 18px;
+      }
+
+      .card {
+        padding: 26px;
+        border-radius: 24px;
+      }
+
+      .links {
+        grid-template-columns: 1fr;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
 <body>
-  <main class="card">
-    <h1>Couples Dare – Fun Quiz</h1>
+  <main class="page">
+    <section class="card">
+      <div class="badge">Official Support & Legal Page</div>
 
-    <p>
-      Welcome to the official support and legal page for Couples Dare – Fun Quiz,
-      a fun couple game with dares, quizzes, daily rewards, hearts, badges,
-      streaks, premium mood packs, chemistry board activities, and party mode.
-    </p>
+      <h1>Couples Dare – Fun Quiz</h1>
 
-    <div class="links">
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms-of-service.html">Terms of Service</a>
-    </div>
+      <p class="subtitle">
+        Couples Dare – Fun Quiz is a fun couple game with dares, quizzes, daily rewards,
+        hearts, badges, streaks, premium mood packs, Daily Chemistry Board, Heart Economy
+        activities and Party Mode.
+      </p>
 
-    <p class="footer">
-      Contact: flirtyquiz.contact@gmail.com
-    </p>
+      <div class="features">
+        <span class="feature">Classic Mode</span>
+        <span class="feature">Points Mode</span>
+        <span class="feature">Roleplay</span>
+        <span class="feature">Daily Rewards</span>
+        <span class="feature">Party Mode</span>
+        <span class="feature">Premium Mood Packs</span>
+      </div>
+
+      <div class="links">
+        <a class="link-card" href="PRIVACY">
+          <span class="link-title">Privacy Policy</span>
+          <span class="link-desc">
+            Learn how Couples Dare handles local data, ads, Firebase, purchases and app features.
+          </span>
+        </a>
+
+        <a class="link-card" href="TERMS">
+          <span class="link-title">Terms of Service</span>
+          <span class="link-desc">
+            Read the rules for using Couples Dare, including safe use, premium, ads and rewards.
+          </span>
+        </a>
+      </div>
+
+      <div class="support">
+        Contact support:
+        <a href="mailto:flirtyquiz.contact@gmail.com">flirtyquiz.contact@gmail.com</a>
+      </div>
+    </section>
   </main>
 </body>
 </html>
