@@ -175,12 +175,27 @@
         font-size: 16px;
       }
     }
+
+    .official-icon{display:block;width:108px;height:108px;object-fit:cover;border-radius:24px;box-shadow:0 15px 50px #fd4b9c45;margin:15px 0 23px;animation:softfloat 6s ease-in-out infinite}
+    .all-apps{display:inline-block;color:#eac4db;font-size:.89rem;text-decoration:none;margin-bottom:8px}
+    .all-apps:hover{color:#fff;text-decoration:underline}
+    .play-row{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin:23px 0 5px}
+    .play-link{display:inline-flex;align-items:center;justify-content:center;border-radius:13px;padding:13px 19px;text-decoration:none;font-size:.92rem;font-weight:800;background:linear-gradient(115deg,#ff8fc8,#ffd08b);color:#270d1d;transition:transform .2s ease}
+    .play-link:hover{transform:translateY(-2px);background:#ffe3c6}
+    .package-ref{color:#ddbccc;font-size:.8rem;font-family:monospace;overflow-wrap:anywhere}
+    .card{transition:border-color .24s ease,box-shadow .24s ease}
+    .card:hover{border-color:rgba(255,185,211,.33);box-shadow:0 30px 94px rgba(0,0,0,.55)}
+    a:focus-visible{outline:3px solid #ffdb91;outline-offset:4px}
+    @keyframes softfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;transform:none!important}}
   </style>
 </head>
 <body>
   <main class="page">
     <section class="card">
-      <div class="badge">Official Support & Legal Page</div>
+      <a class="all-apps" href="https://flirtyquizcontact-rgb.github.io/">← All Quiz Fans Studio apps</a>
+      <img class="official-icon" src="https://play-lh.googleusercontent.com/8IbW85DewqN_lUrHlJYTefFiH-Mrzt0qMeggc_uY_Y7QvB3pcK2GgczgmfTRenBvNh83JQskecKyiGRXhzGIMjw=w240-h480" alt="Official Couples Dare icon on Google Play" width="108" height="108">
+      <div class="badge">Official Game · Available on Google Play</div>
 
       <h1>Couples Dare: Love Quiz</h1>
 
@@ -190,6 +205,7 @@
         activities and Party Mode.
       </p>
 
+      <div class="play-row"><a class="play-link" href="https://play.google.com/store/apps/details?id=com.lauri.couplesdare">View on Google Play ↗</a><span class="package-ref">com.lauri.couplesdare</span></div>
       <div class="features">
         <span class="feature">Classic Mode</span>
         <span class="feature">Points Mode</span>
@@ -200,16 +216,16 @@
       </div>
 
       <div class="links">
-        <a class="link-card" href="PRIVACY">
+        <a class="link-card" href="https://raw.githubusercontent.com/flirtyquizcontact-rgb/Couples-Dare/refs/heads/main/PRIVACY">
           <span class="link-title">Privacy Policy</span>
-          <span class="https://raw.githubusercontent.com/flirtyquizcontact-rgb/Couples-Dare/refs/heads/main/PRIVACY">
+          <span class="link-desc">
             Learn how Couples Dare handles local data, ads, Firebase, purchases and app features.
           </span>
         </a>
 
-        <a class="link-card" href="TERMS">
+        <a class="link-card" href="https://raw.githubusercontent.com/flirtyquizcontact-rgb/Couples-Dare/refs/heads/main/TERMS">
           <span class="link-title">Terms of Service</span>
-          <span class="https://raw.githubusercontent.com/flirtyquizcontact-rgb/Couples-Dare/refs/heads/main/TERMS">
+          <span class="link-desc">
             Read the rules for using Couples Dare, including safe use, premium, ads and rewards.
           </span>
         </a>
